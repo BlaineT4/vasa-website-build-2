@@ -480,6 +480,7 @@ footer p {
 
 /* Media Queries */
 
+/* 720px Width */
 @media (min-width: 45em) {
     
 /* Header MQ */
@@ -513,8 +514,6 @@ footer p {
 
 /* Mailing List MQ */
 
-
-
  .mail-list {
      width: 37.4%;
      float: right;
@@ -530,7 +529,7 @@ footer p {
  }
 
  .mail-list p {
-     /* font-size: 0.4em; */
+     font-size: 0.4em;
      text-align: left;
      padding: 5px 15px 5px 1px;
      /* float: left; */
@@ -646,7 +645,7 @@ footer p {
 }
 
 
-/* 520px Wide Media Queries */
+/* 520px Width */
 
 @media (max-width: 32.5em) {
     .icon {
@@ -654,12 +653,13 @@ footer p {
     }
 }
 
-@media (max-width: 60em) {
+/* 960px Width */
+@media (min-width: 60em) {
     .mail-list {
         padding: 30px 0 0 0;
     }
     
     .mail-list p {
-        font-size: 0.4em;
+        font-size: 0.5em;
     }
 }
