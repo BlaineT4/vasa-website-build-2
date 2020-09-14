@@ -36,6 +36,7 @@ h2, h3, h4 {
 
 .selected {
     background-color: #ddd;
+    /* filter: invert(75%) */
 }
 
 .bold {
@@ -82,7 +83,10 @@ h2, h3, h4 {
 .header ul a:hover {
     background-color: #ddd;
     transform: scale(1.05);
+    filter: invert(95%);
 }
+
+
 
 .header .logo {
     float: left;
@@ -200,8 +204,6 @@ h2, h3, h4 {
 
 /* Signup Sidebar Section */
 
-
-
 .mail-list {
     width: 100%;
     background-color: #eee;
@@ -246,6 +248,7 @@ h2, h3, h4 {
 
 .signup:hover {
     transform: scale(1.05);
+    filter: opacity(75%);
     
 }
 
@@ -323,6 +326,7 @@ h2, h3, h4 {
 
 .icon:hover {
     transform: scale(1.1);
+    filter: invert(50%)
 }
 
 /* Bio Section */
@@ -514,7 +518,7 @@ footer p {
  .mail-list {
      width: 37.4%;
      float: right;
-     padding: 50px 0 0 0;
+     padding: 60px 0 0 0;
      /* overflow: auto; */
  }
 
@@ -527,6 +531,9 @@ footer p {
 
  .mail-list p {
      /* font-size: 0.4em; */
+     text-align: left;
+     padding: 5px 15px 5px 1px;
+     /* float: left; */
  }
 
  .placeholder-box {
@@ -557,8 +564,9 @@ footer p {
  }
 
  .signup {
-    width: 30%;
+    width: 28%;
     padding: 7px 0;
+    float: right;
 }
 
  .icon {
@@ -646,8 +654,12 @@ footer p {
     }
 }
 
-@media (max-width: 55em) {
+@media (max-width: 60em) {
     .mail-list {
-        padding: 15px 0 0 0;
+        padding: 30px 0 0 0;
+    }
+    
+    .mail-list p {
+        font-size: 0.4em;
     }
 }
