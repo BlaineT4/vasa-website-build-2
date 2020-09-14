@@ -514,7 +514,7 @@ footer p {
  .mail-list {
      width: 37.4%;
      float: right;
-     padding: 30px 0 0 0;
+     padding: 50px 0 0 0;
      /* overflow: auto; */
  }
 
@@ -526,7 +526,7 @@ footer p {
  }
 
  .mail-list p {
-     font-size: 0.4em;
+     /* font-size: 0.4em; */
  }
 
  .placeholder-box {
@@ -643,5 +643,11 @@ footer p {
 @media (max-width: 32.5em) {
     .icon {
         padding: 0 8px 0 0;
+    }
+}
+
+@media (max-width: 55em) {
+    .mail-list {
+        padding: 15px 0 0 0;
     }
 }
